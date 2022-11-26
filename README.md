@@ -2,7 +2,7 @@
 API do GitHub para listar e mostrar informações sobre meus repositórios
 
 ## INSTALAR O PROJETO NA SUA MAQUINA
-1 - clone o projeto : ``git clone https://github.com/Felipe118/api_github.git .``
+1 - clone o projeto : ``git clone https://github.com/Felipe118/api_github.git``
 
 2 - Entrar na pasta public - ``cd public``
 

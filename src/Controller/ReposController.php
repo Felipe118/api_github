@@ -17,7 +17,6 @@ class ReposController
                 ]
             ]
         ];
-        //header('Content-type: application/json;');
         
         $json = file_get_contents($url, false, stream_context_create($opts));
         $dados = json_decode($json);
@@ -135,10 +134,6 @@ class ReposController
 
         return print_r(json_encode($messAlphabetic));
 
-
-       
-        
-      
     }
 
     public function allCommitsRepo($repo){
@@ -151,8 +146,7 @@ class ReposController
                 ]
             ]
         ];
-        //header('Content-type: application/json;');
-        
+      
         $json = file_get_contents($url, false, stream_context_create($opts));
         $repoFilter = json_decode($json);
 
@@ -202,7 +196,7 @@ class ReposController
                 ]
             ]
         ];
-        //header('Content-type: application/json;');
+
         
         $json = file_get_contents($url, false, stream_context_create($opts));
         $repoFilter = json_decode($json);

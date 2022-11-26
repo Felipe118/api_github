@@ -1,0 +1,17 @@
+{
+    "name": "lipeb/list_repos",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "MF\\": "vendor/MF/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe118",
+            "email": "lipebezerraa@gmail.com"
+        }
+    ],
+    "require": {}
+}
